@@ -1,0 +1,55 @@
+/* Navbar Base */
+.navbar {
+    background-color: white; /* White navbar like Atos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    color: #003f7f; /* Dark blue like Atos */
+    border-bottom: 2px solid #e6e6e6; /* Subtle separator */
+  }
+  
+  /* Logo */
+  .navbar-logo img {
+    max-height: 50px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #003f7f; /* Dark blue text */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .nav-links a:hover {
+    color: #0056b3; /* Slightly lighter blue on hover */
+  }
+  
+  /* Login Button */
+  .login-btn {
+    background: #0056b3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #003f7f;
+  }
+  

@@ -1,0 +1,31 @@
+.ssh-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .ssh-tunnel-button {
+    background-color: #2a6496; /* Primary blue */
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .ssh-tunnel-button:hover {
+    background-color: #1d3f73; /* Darker blue on hover */
+    transform: scale(1.05);
+  }
+  
+  .ssh-tunnel-button:active {
+    background-color: #16355c; /* Even darker blue on click */
+    transform: scale(0.95);
+  }
+  

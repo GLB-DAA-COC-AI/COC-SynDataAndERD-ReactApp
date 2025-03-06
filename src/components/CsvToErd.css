@@ -1,0 +1,71 @@
+.csv-to-erd {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center; /* Keep content centered */
+}
+
+.csv-to-erd form {
+  /* Center the form and limit its width */
+  margin: 0 auto;
+  max-width: 400px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.csv-to-erd label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.csv-to-erd input[type="file"] {
+  /* Remove the full width and center it */
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.csv-to-erd button {
+  background-color: #2a6496;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.csv-to-erd button:hover {
+  background-color: #1d3f73;
+}
+
+.csv-to-erd img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray border */
+  border-top: 4px solid #2a6496; /* Blue accent */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

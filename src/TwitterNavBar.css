@@ -1,0 +1,38 @@
+/* Basic dark background to mimic Twitter’s dark mode */
+.twitter-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000;      /* or #15202B for a slightly lighter dark */
+    color: #fff;
+    border-bottom: 1px solid #2f3336;
+    position: sticky; /* optional if you want it to remain on top */
+    top: 0;
+    z-index: 10;
+  }
+  
+  /* Container for the tab items */
+  .twitter-nav-items {
+    display: flex;
+    gap: 40px;
+  }
+  
+  /* Each tab item */
+  .twitter-nav-item {
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover effect */
+  .twitter-nav-item:hover {
+    background-color: #2f3336;
+    border-radius: 8px;
+  }
+  
+  /* Highlight the active tab */
+  .twitter-nav-item.active {
+    font-weight: 700;
+    border-bottom: 2px solid #1d9bf0; /* Twitter blue accent */
+  }
+  

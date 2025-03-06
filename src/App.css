@@ -1,0 +1,67 @@
+/* General App Styles */
+.App {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.app-header {
+  background-color: #2a6496; /* Blue tone */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.company-logo {
+  max-height: 50px; /* Smaller logo */
+  width: auto;
+}
+
+/* Tab Bar Styles */
+.tab-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab-bar button {
+  background: #ffffff;
+  color: #2a6496;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.tab-bar button:hover {
+  background: #e6f2fa;
+}
+
+.tab-bar button.active {
+  background: #1d3f73;
+  color: #fff;
+}
+
+/* Main Content Styles */
+.app-main {
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
